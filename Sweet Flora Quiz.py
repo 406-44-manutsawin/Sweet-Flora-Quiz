@@ -62,64 +62,64 @@ def show_result_dialog(ans1, ans2, ans3, ans4):
     u_ans10 = ans10.strip().lower()
 
     # ตรวจข้อ 1
-    if u_ans1 == "🌹 กุหลาบ":
+    if u_ans1 == "กุหลาบ":
         st.success("✅ ข้อ 1: ถูกต้อง")
         score += 1
     else:
         st.error(f"❌ ข้อ 1: ยังไม่ถูกต้อง (คุณตอบ '{u_ans1}')")
 
     # ตรวจข้อ 2
-    if u_ans2 == "🌻 ทานตะวัน":
+    if u_ans2 == "ทานตะวัน":
         st.success("✅ ข้อ 2: ถูกต้อง")
         score += 1
     else:
         st.error(f"❌ ข้อ 2: ยังไม่ถูกต้อง (คุณตอบ '{u_ans2}')")
 
     # ตรวจข้อ 3
-    if u_ans3 == "🤍 มะลิ":
+    if u_ans3 == "มะลิ":
         st.success("✅ ข้อ 3: ถูกต้อง")
         score += 1
     else:
         st.error(f"❌ ข้อ 3: ยังไม่ถูกต้อง (คุณตอบ '{u_ans3}')")
 
      # ตรวจข้อ 4
-    if u_ans4 == "💙 อัญชัน":
+    if u_ans4 == "อัญชัน":
         st.success("✅ ข้อ 4: ถูกต้อง")
         score += 1
     else:
         st.error(f"❌ ข้อ 4: ยังไม่ถูกต้อง (คุณตอบ '{u_ans4}')")
 
-    if u_ans5 == "🌺 ชบา":
+    if u_ans5 == "ชบา":
         st.success("✅ ข้อ 5: ถูกต้อง")
         score += 1
     else:
         st.error(f"❌ ข้อ 5: ยังไม่ถูกต้อง (คุณตอบ '{u_ans5}')")
 
-    if u_ans6 == "💜 กล้วยไม้":
+    if u_ans6 == "กล้วยไม้":
         st.success("✅ ข้อ 6: ถูกต้อง")
         score += 1
     else:
         st.error(f"❌ ข้อ 6: ยังไม่ถูกต้อง (คุณตอบ '{u_ans6}')")
 
-    if u_ans7 == "❤️ ดอกเข็ม":
+    if u_ans7 == "ดอกเข็ม":
         st.success("✅ ข้อ 7: ถูกต้อง")
         score += 1
     else:
         st.error(f"❌ ข้อ 7: ยังไม่ถูกต้อง (คุณตอบ '{u_ans7}')")
 
-    if u_ans8 == "💛 ดาวเรือง":
+    if u_ans8 == "ดาวเรือง":
         st.success("✅ ข้อ 8: ถูกต้อง")
         score += 1
     else:
         st.error(f"❌ ข้อ 8: ยังไม่ถูกต้อง (คุณตอบ '{u_ans8}')")
 
-    if u_ans9 == "🌸 ซากุระ":
+    if u_ans9 == "ซากุระ":
         st.success("✅ ข้อ 9: ถูกต้อง")
         score += 1
     else:
         st.error(f"❌ ข้อ 9: ยังไม่ถูกต้อง (คุณตอบ '{u_ans9}')")
 
-    if u_ans10 == "🪷 บัว":
+    if u_ans10 == "บัว":
         st.success("✅ ข้อ 10: ถูกต้อง")
         score += 1
     else:
