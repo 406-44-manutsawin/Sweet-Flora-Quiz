@@ -134,9 +134,9 @@ st.info(f"🏆 ได้คะแนนรวม: {score} คะแนน")
         st.success("🎉 You win!") 
     else: 
         st.error("Improve your skill")
-    else: score >= 7:
+    elif: score >= 7:
         st.error("Try again")
-    else: score >= 3
+    elif: score >= 3
         st.error("Maybe next time")
     else: score == 0
         st.error("You lose")
