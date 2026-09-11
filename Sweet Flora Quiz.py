@@ -134,12 +134,12 @@ def show_result_dialog(ans1, ans2, ans3, ans4, ans5, ans6, ans7, ans8, ans9, ans
     else:
         st.error("Doing good")
 
-    if score < 7:
+    if score <7:
         st.success("Improve your skill")
     else:
         st.error("How")
            
-    if score < 3:
+    if score <3:
         st.success("you lose")
     else:
         st.error("you lose")
