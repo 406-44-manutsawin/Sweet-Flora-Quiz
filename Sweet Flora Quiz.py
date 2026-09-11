@@ -127,12 +127,20 @@ def show_result_dialog(ans1, ans2, ans3, ans4, ans5, ans6, ans7, ans8, ans9, ans
 
 
     # ✏️ [พื้นที่สำหรับนักเรียน]: เพิ่มตรวจข้อ 3, 4 ตรงนี้
+    
+    st.info(f"🏆 ได้คะแนนรวม: {score} คะแนน")
+
     if score == 10:
-        st.success("🎉ว้าววว คุณเก่งมาก")
-    elif score >= 7 and score <= 3:  
-        st.info("🎈คุณพยายามอีกนิดนะ")
+        st.success("🎉 You win!")
+        
+    elif score <= 7:
+         st.success("👏 เก่งมาก!")
+        
+    elif score <= 3:
+         st.warning("🙂 พยายามอีกนิดนะ")
+        
     else:
-        st.error("💀 You lose!")
+        st.error("😢 ลองใหม่อีกครั้ง")
 
 
     
