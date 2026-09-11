@@ -129,15 +129,19 @@ def show_result_dialog(ans1, ans2, ans3, ans4, ans5, ans6, ans7, ans8, ans9, ans
     # ✏️ [พื้นที่สำหรับนักเรียน]: เพิ่มตรวจข้อ 3, 4 ตรงนี้
 
     
-if score = 10 Then
-    MessageBox.Show("ผ่านระดับเทพ! 🌟")
-else score >= 3 Then
-    MessageBox.Show("เก่งมาก! 👍")
-else score >= 1 Then
-    MessageBox.Show("พยายามอีกนิด 💪")
-else
-    MessageBox.Show("แพ้! ลองใหม่อีกครั้ง 😭")
-end if
+st.info(f"🏆 ได้คะแนนรวม: {score} คะแนน") 
+    if score == 10:
+        st.success("🎉 You win!") 
+    else: 
+        st.error("Improve your skill")
+    else: score >= 7:
+        st.error("Try again")
+    else: score >= 3
+        st.error("Maybe next time")
+    else: score == 0
+        st.error("You lose")
+        
+
 
 
     
