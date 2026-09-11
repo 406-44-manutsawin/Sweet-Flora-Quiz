@@ -133,7 +133,7 @@ def show_result_dialog(ans1, ans2, ans3, ans4, ans5, ans6, ans7, ans8, ans9, ans
     if score == 10:
         st.success("🎉 You win!")
         
-    elif <= 7 and score >= 3:
+    elif score <= 7 and score >= 3:
          st.success("🙂 พยายามอีกนิดนะ")
         
     else:
